@@ -24,7 +24,7 @@ body {
   padding: 5px;
 }
 
-.gallery > div > img {
+.gallery > div > canvas, .gallery > div > img {
   display: block;
   width: 200px;
   transition: .1s transform;
@@ -35,7 +35,7 @@ body {
   z-index: 1;
 }
 
-.gallery > div:hover > img {
+.gallery > div:hover > canvas, .gallery > div:hover > img {
   transform: scale(1.7,1.7);
   transition: .3s transform;
 }
