@@ -1,0 +1,35 @@
+/* Box sizing reset */
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img{
+    float: left;
+    width: 300px;
+}
+
+.box{
+    width: 600px;
+}
+
+.small{
+    shape-outside: circle();
+}
+
+.small2{
+    shape-outside: polygon(203px 205px, 187px 177px, 162px 147px, 171px 113px, 163px 73px, 127px 77px, 100px 94px, 71px 54px, 30px 46px, 4px 68px, 2px 226px, 201px 225px);
+}
+
+.small3{
+    shape-outside: url(/images/surf.png);
+}
+
+.small4{
+    clip-path: polygon(203px 205px, 187px 177px, 162px 147px, 171px 113px, 163px 73px, 127px 77px, 100px 94px, 71px 54px, 30px 46px, 4px 68px, 2px 226px, 201px 225px);
+    shape-outside: polygon(203px 205px, 187px 177px, 162px 147px, 171px 113px, 163px 73px, 127px 77px, 100px 94px, 71px 54px, 30px 46px, 4px 68px, 2px 226px, 201px 225px);
+}
